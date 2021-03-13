@@ -15,19 +15,19 @@
       #paras {
         font-family:garamond;
       }
-      .aligncenter {
-        text-align: center;
-      }
-      #tds {
+      .tc {
         text-align: center;
         font-family: verdana;
+        border:black;
+        border-width:2px;
+        border-style:solid;
       }
     </style>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body style="background-color:tan">
     <h1 id="headersv1"> Alan Turing </h1>
-    <p class="aligncenter">
+    <p style="text-align:center;">
       <img src="./images/AlanTuring.jpg" alt="Alan Turing">
     </p>
     <p style="text-align:center;"><i><q>Sometimes it is the people no one can imagine anything of who do the things no one can imagine</q></i></p>
@@ -37,31 +37,55 @@
     <br>
     <h3 id="headersv2" style="text-align:right;"> Contribution's </h3>
     <p id="paras"> Turing's contributions to the field of Computer's started durings his years after graduation but before his work at Bletchley Park, when he came upon the idea of the Turing Machine. The principle (simplified) was that an indivudual Turing Machine that solved things one particular way, combined with multiple Turing machines could culminate into a universal Turing machine that could any well defined task. This theory is now known as a computer, a combination of programs that can solve any task defied well enough to fit under the task's it is capable of running. But not only did he make contributions to computer science, but he also breathed life into what artificial intelligence with the idea of the "Turing Test", testing whether a human would be able to distingush the difference in answer between a computer and a human. This philisophical disscusion is still at the root of many artificial intelligence debates to this day. </p>
+    <br>
+    <h3 id="headersv2"> Intresting Facts</h3>
+    <ul>
+      <li id="paras"> Turing was an incredible long distance runner, sometimes even running the 64km to London to meetings. He tried out for the 1948 Olympic team and would have likely made it if it were not for an injury. His time was only 11 minutes slower then the eventual silver medalist. </li>
+      <li id="paras">Among his many odd habits while working in Hut 8, Turing chained his mug to the radiator to prevent it from being stolen.</li>
+      <li id="paras">Working with an undergradute colleague, Turing wrote out a chess program that was used later on once computers caught up to his programing. Garry Kasparov said later that the "Turochamp" was able to <q>play a recognizable game of chess</q>.</li>
+      <li id="paras">A half eaten appele was found beside Turing's body when he died, and was likely the way that Turing had injested the cyanide. Theories suggest that he was re-enacting the scene from <i>Snow White</i> which was his favorite fairy tale.</li>
+    </ul>
     <hr>
     <h4 id="headersv2" style="text-align:center;"> Timeline </h4>
-    <table width="100%">
+    <table class="tc" width="100%">
       <tr>
-        <th>Year</th>
-        <th>Event</th>
+        <th class="tc">Year</th>
+        <th class="tc">Event</th>
       </tr>
       <tr>
-        <td id="tds"> 1912 </td>
-        <td id="tds"> Alan Turing is born in London, England with as the younger brother in an upper middle class family</td> 
+        <td class="tc"> 1912 </td>
+        <td class="tc"> Alan Turing is born in London, England with as the younger brother in an upper middle class family</td> 
       </tr> 
       <tr>
-        <td id="tds"> 1926 </td>
-        <td id="tds"> He  is enrolled into Sherborne School (a boarding school) after his teachers and parents start to take notice of his abilities.</td>
+        <td class="tc"> 1926 </td>
+        <td class="tc"> He  is enrolled into Sherborne School (a boarding school) after his teachers and parents start to take notice of his abilities.</td>
       </tr>
       <tr>
-        <td id="tds">1930</td>
-        <td id="tds">Death of Turing's best friend, the event pushed him to spend more time studying and focusing on math and science. </td>
+        <td class="tc">1931</td>
+        <td class="tc">Turing starts his undergradute at King's College, throughout his time there he earns himself first-class honors in maths and was elected a Fellow shortly after graduation.</td>
+      <tr>
+        <td class="tc">1936</td>
+        <td class="tc"> Turing publishs his paper on computation and his hypothetical devices that would later be coined as "Turing Machines". 
       </tr>
       <tr>
-        <td id="tds">1931</td>
-        <td id="tds">Turing starts his undergradute at King's College, throughout his time there he earns himself first-class honors in maths and was elected a Fellow shortly after graduation.</td>
+        <td class="tc">1939</td>
+        <td class="tc">Starts his work at Bletchley Park, focusing primarily on a method of reliably decripting the German Enigma machine. Through the use of probability and the creation of the "bombe" (device created specifically to decipher the Enigma machine), he was able to reliably dechiper the Enigma machine for the Allies. </td>
+      </tr>
       <tr>
-        <td id="tds">1936</td>
-        <td id="tds"> Turing publishs his paper on computation and his hypothetical devices that would later be coined as "Turing Machines". 
+        <td class="tc"> 1941 </td>
+        <td class="tc"> Turing proposes to Joan Clarke, his colleague whille working in Hut 8 at Bletchley Park. The engagement was short as Turing did not feel right considering his homosexuality.
+      </tr>
+      <tr>
+        <td class="tc">1945</td>
+        <td class="tc">After the war, he starting working on the Automatic Computing Engine (ACE) which was the first design for a electronicly dependant computer rather then plugboards. These designs were later used to create some of the first stored-program computers in 1950. He also continue to dabble in computers as well as maths and pattern formations.</td>
+      </tr>
+      <tr>
+        <td class="tc">1952</td>
+        <td class="tc">Turing was convicted of have a relationship with another man and was forced to take injections to change his hormonal structure. He also lost a good amount of his gouvernement clearances as a result.</td>
+      </tr>
+      <tr>
+        <td class="tc">1954</td>
+        <td class="tc">Alan Turing commit suicide (cyanide poisoning) at the age of 41, 8<sup>th</sup> June 1952. He was pardoned in 2014 and inspired the gouvernement to continue to exonerate others convicted in the same unjust manner.</td>
       </tr>
     </table>
     <script src="script.js"></script>
