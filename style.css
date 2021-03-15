@@ -2,6 +2,7 @@ table,th,td {
   border: 3px solid black;
   text-align: center;
   font-family: garamond, serif;
+  font-weight: bold;
 }
 
 div.list {
