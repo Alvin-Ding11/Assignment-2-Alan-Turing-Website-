@@ -1,4 +1,4 @@
-table,th,td {
+table, th, td {
   border: 3px solid black;
   text-align: center;
   font-family: garamond, serif;
@@ -9,4 +9,5 @@ div.list {
   font-family: garamond, serif;
   font-size: 115%;
 }
-/*added comment to retry linter */
+
+/* added comment to retry linter */
