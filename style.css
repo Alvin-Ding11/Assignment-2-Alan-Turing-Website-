@@ -1,10 +1,10 @@
-table, th, td {
+table,th,td {
   border: 3px solid black;
   text-align: center;
-  font-family: garamond;
+  font-family: garamond, serif;
 }
 
 div.list {
-  font-family:garamond;
-  font-size:115%;
+  font-family: garamond, serif;
+  font-size: 115%;
 }
