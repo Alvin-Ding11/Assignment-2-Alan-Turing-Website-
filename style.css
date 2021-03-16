@@ -2,9 +2,11 @@ table,
 th,
 td {
   border: 3px solid black;
+  border-collapse: collapse;
   text-align: center;
   font-family: garamond, serif;
   font-weight: bold;
+  padding: 5px;
 }
 
 div.list {
