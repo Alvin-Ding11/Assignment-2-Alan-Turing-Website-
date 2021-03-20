@@ -36,9 +36,40 @@ div.list {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .topnav a:hover {
   background-color: SaddleBrown;
   color: White;
+}
+
+.headersv2 {
+  font-size:250%;
+}
+      
+.paras {
+  font-family:garamond;
+}
+
+.table-margin {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+/* This clears the float element after the columns to prevent the rest of the page from being forced to follow the same design. */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100;
+  }
 }
