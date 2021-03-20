@@ -10,12 +10,15 @@ td {
   text-align: center;
   font-family: garamond, serif;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px;
 }
 
 div.list {
   font-family: garamond, serif;
   font-size: 115%;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.6;
 }
 
 .header {
@@ -45,11 +48,11 @@ div.list {
 }
 
 .headersv2 {
-  font-size:250%;
+  font-size: 250%;
 }
       
 .paras {
-  font-family:garamond;
+  font-family: garamond;
 }
 
 .table-margin {
@@ -60,6 +63,20 @@ div.list {
 .column {
   float: left;
   width: 33.33%;
+}
+
+.columnmid {
+  float: left;
+  width: 33.33%;
+  position: relative;
+  left: 125px;
+  top: 70px;
+}
+
+.phtotxt {
+  font-family: garamond;
+  position: relative;
+  right: 65px;
 }
 
 .row:after {
