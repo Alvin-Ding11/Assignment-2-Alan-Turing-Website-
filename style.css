@@ -29,7 +29,7 @@ div.list {
 
 .topnav {
   overflow: hidden;
-  background-color: Peru;
+  background-color: peru;
 }
 
 .topnav a {
@@ -43,16 +43,16 @@ div.list {
 }
 
 .topnav a:hover {
-  background-color: SaddleBrown;
-  color: White;
+  background-color: saddleBrown;
+  color: white;
 }
 
 .headersv2 {
   font-size: 250%;
 }
-      
+
 .paras {
-  font-family: garamond;
+  font-family: garamond, serif;
 }
 
 .table-margin {
@@ -74,16 +74,17 @@ div.list {
 }
 
 .phtotxt {
-  font-family: garamond;
+  font-family: garamond, serif;
   position: relative;
   right: 65px;
 }
 
 .row:after {
-  content:"";
+  content: "";
   display: table;
   clear: both;
 }
+
 /* This clears the float element after the columns to prevent the rest of the page from being forced to follow the same design. */
 @media screen and (max-width: 600px) {
   .column {
