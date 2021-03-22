@@ -43,7 +43,7 @@ div.list {
 }
 
 .topnav a:hover {
-  background-color: saddleBrown;
+  background-color: saddlebrown;
   color: white;
 }
 
@@ -96,4 +96,3 @@ div.list {
   float: right;
   width: 40%;
 }
-
