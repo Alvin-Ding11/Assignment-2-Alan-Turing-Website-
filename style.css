@@ -79,7 +79,7 @@ div.list {
   right: 65px;
 }
 
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -91,3 +91,9 @@ div.list {
     width: 100;
   }
 }
+
+.gallatext {
+  float: right;
+  width: 40%;
+}
+
